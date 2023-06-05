@@ -16,7 +16,7 @@ def draw_random():
     aprint('random')
 
 if __name__=='__main__':
-    print('Текущая дата и время:',datetime.now())
+    print('Текущая дата:',datetime.now().date())
     calculate_salary()
     get_employees()
 
